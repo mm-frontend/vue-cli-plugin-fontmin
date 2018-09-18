@@ -1,0 +1,17 @@
+{
+  "name": "@bitmain/vue-cli-plugin-fontmin",
+  "version": "1.0.1",
+  "description": "fontmin for vue-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xueyan.lu@bitmain.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "glob": "^7.1.2",
+    "fontmin": "^0.9.7-beta",
+    "gulp-rename": "^1.4.0"
+  }
+}
