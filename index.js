@@ -13,7 +13,7 @@ module.exports = (api, projectOptions) => {
       '--input [dir]': 'specify input directory (default: src/assets/_fonts)',
       '--output [dir]': 'specify output directory (default: src/assets/fonts)'
     },
-    details: 'For more details, see https://eslint.org/docs/user-guide/command-line-interface#options'
+    details: 'For more details, see https://github.com/bitmain-frontend/vue-cli-plugin-fontmin'
   }, args => {
     let srcPath = args.input || path.resolve(process.cwd(), 'src/assets/_fonts/')
     let distRootPath = args.output || path.resolve(process.cwd(), 'src/assets/fonts/')
