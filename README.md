@@ -29,3 +29,19 @@ i.e.
     text: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789视频大数据综合应用系统平台相似度'
   }
 ```
+
+#### example directory structure
+
+```
+  src
+    |--assets
+      |--_fonts  // source directory
+        |-- demo.ttf
+      |--fonts
+        |-- demo // generated directory
+          |--demo.eot
+          |--demo.svg
+          |--demo.woff
+          |--demo.ttf
+          |--index.css
+```
