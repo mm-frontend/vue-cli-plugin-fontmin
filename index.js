@@ -22,7 +22,7 @@ module.exports = (api, projectOptions) => {
     fonts.forEach(f => {
       const fInfo = path.parse(f)
       const textFile = fInfo.dir + '/' + fInfo.name + '.js'
-      if (!fs.existsSync(fInfo.dir + '/' + fInfo.name + '.js')) return
+      if (!fs.existsSync(textFile)) return
       const text = require(textFile).text
       const distPath = path.join(distRootPath, fInfo.name)
       if (!fs.existsSync(distPath)) {

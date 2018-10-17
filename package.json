@@ -1,6 +1,6 @@
 {
   "name": "@bitmain/vue-cli-plugin-fontmin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fontmin for vue-cli",
   "main": "index.js",
   "scripts": {
