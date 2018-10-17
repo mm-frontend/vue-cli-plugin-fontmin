@@ -10,7 +10,7 @@
 
 ```
 --input the directory where the raw .ttf files is in(default: src/assets/_fonts)
---output the directory where the minified files is to
+--output the directory where the minified files is to(default: src/assets/fonts)
 ```
 #### by vue-cli-service
 ```javascript
