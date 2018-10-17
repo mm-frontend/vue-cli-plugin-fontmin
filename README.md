@@ -14,6 +14,7 @@
 ```
 #### by vue-cli-service
 ```javascript
+  npm run fontmin // or
   npx vue-cli-service fontmin
 ```
 
